@@ -1,0 +1,82 @@
+/* .anime-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  width: 1170px; 
+}
+
+.anime-image {
+  width: 100%;
+}
+
+.anime-title {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.anime-episode {
+  font-size: 14px;
+  text-align: center;
+  color: #aaa;
+} */
+.anime-card {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  margin: 22px;
+  width: 1170px;
+ 
+  color: white;
+}
+
+.anime-image-container {
+  position: relative;
+}
+.gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(29, 29, 29, 0) 0%, #0F1E29 100%);
+  border-radius: 12px; 
+  pointer-events: none; 
+}
+
+.anime-image {
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+  border-radius: 12px; 
+
+
+}
+
+.episode-overlay {
+  position: absolute;
+  bottom: 10px; 
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0); /* Màu nền mờ cho lớp phủ */
+  color: white;
+  padding: 5px 0px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.anime-title {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.episode-list {
+  font-size: 14px;
+  margin-top: 5px;
+}
+

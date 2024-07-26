@@ -1,0 +1,19 @@
+.new-releases {
+  padding: 12px 60px 0 60px;
+  }
+  
+  .new-releases-title {
+    font-size: 36px;
+    margin: 29px 20px 29px;
+    color: #FFFFFF;
+    font-weight: 600;
+    line-height: 32px;
+
+  }
+  
+  .new-releases-list {
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  
